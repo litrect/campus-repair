@@ -10,6 +10,8 @@
 
 ## 在新电脑上准备环境
 
+首次安装请按 [新电脑环境准备指南](新电脑环境准备指南.md) 操作，包含软件安装、数据库初始化、前端构建及一键启动。
+
 仓库不包含本机数据库、密码、密钥、Python 虚拟环境、MySQL 安装包或 node_modules。
 克隆仓库后，需要根据 `houduan/README.md` 配置 Python、MySQL、数据库及虚拟环境，
 再按 `qianduan/campus-repair-frontend/README.md` 安装前端依赖并执行 `npm run build`。
