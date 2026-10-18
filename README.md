@@ -15,7 +15,7 @@
 仓库不包含本机数据库、密码、密钥、Python 虚拟环境、MySQL 安装包或 node_modules。
 克隆仓库后，需要根据 `houduan/README.md` 配置 Python、MySQL、数据库及虚拟环境，
 再按 `qianduan/campus-repair-frontend/README.md` 安装前端依赖并执行 `npm run build`。
-本地入口为 http://127.0.0.1:5000 。cpolar 需要单独安装并配置自己的账号及隧道。
+本地入口为 http://127.0.0.1:5000 。其他电脑本地运行无需安装或配置 cpolar，使用 `本地打开校园报修系统.cmd` 即可。
 
 预置演示账号仅用于开发联调；对外使用前请更换演示密码。
 
