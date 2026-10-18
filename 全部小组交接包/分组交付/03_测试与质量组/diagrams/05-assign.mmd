@@ -1,0 +1,19 @@
+sequenceDiagram
+    actor A as 管理员
+    participant API as Flask 路由
+    participant SV as OrderService
+    participant DB as MySQL
+    A->>API: POST /api/orders/{id}/assign
+    API->>SV: 传目标维修工与页面所见 version
+    SV->>DB: BEGIN，查工单与目标维修工
+    Note over SV,DB: 校验管理员、启用维修工和客户端 version
+    SV->>DB: 按旧状态和客户端 version 条件更新
+    alt 更新成功
+      SV->>DB: 写 ASSIGN 或 REASSIGN 日志；COMMIT
+      SV-->>API: 最新工单与 version
+      API-->>A: 最新工单与 version
+    else 影响 0 行
+      SV->>DB: ROLLBACK
+      SV-->>API: 并发冲突
+      API-->>A: 409 冲突，请刷新
+    end

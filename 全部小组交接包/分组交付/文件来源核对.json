@@ -1,0 +1,532 @@
+[
+  {
+    "group": "01_后端开发组",
+    "file": "system-design.md",
+    "source_sha256": "b76d6a327b83656ff433b85d77d96a66c11a997e94af31a0575aa368aa9edf8b"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "api-contract.md",
+    "source_sha256": "65d0fc7656b418ce5f03bd086a384a718d95e93b9f3a98beca7772206ac63816"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "implementation-notes.md",
+    "source_sha256": "a39adcea204c4d9d2157a1e9cb700af24b7e0a4af2f0e2c2cdcb2d181beb592e"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "acceptance.md",
+    "source_sha256": "ce57ebe1649bc066460b87941d4b62193a5eea181c41ea854efc65fd261406ce"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "schema.sql",
+    "source_sha256": "8597049fdbc50496948be7a810d04c6647090a53e0338c774ebfb0d385b04a39"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "seed.sql",
+    "source_sha256": "3aa2ed2a4ab3f125720d72019589d8a198cf6625a0463cf66f6ca3f88bc3a8bd"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "verify_delivery.py",
+    "source_sha256": "9dafa4b957a0706ad8cc6440b61325db4b0e936d6942db2effc602d3d28eed27"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "verification-report.md",
+    "source_sha256": "7385862ab0771b932356b4558d9f600fa357e1eb0bc12036ca25c3a84aaa9434"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "verification-results.json",
+    "source_sha256": "a62d6ca5a3ee8b60c941c98f6169c20645931f1d5716e215aaa2842f9affc116"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "review-and-tasks.md",
+    "source_sha256": "2e77d0d63f7873301e98a3ac6ad8ea911e4049dd5312cdc6a2d2b6de1ee41893"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "diagrams/01-er.mmd",
+    "source_sha256": "0066eff0d1758c45b01a121a9c4311f5eae624fe9956237d1903d5c3af5c4ddd"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "diagrams/01-er.svg",
+    "source_sha256": "38447f87a960bbdaff375725e19d4ad96974b3dd94febbfc1de53d6c29240633"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "diagrams/02-state.mmd",
+    "source_sha256": "2e8f82844e417d6294640b3eab343b6da8938e6699142a80b603a5e1a9bc7a81"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "diagrams/02-state.svg",
+    "source_sha256": "3f9392af5bbded2ddf8ec17ca57b52d43ef3e191ea198649e0d10278e1880982"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "diagrams/03-class.mmd",
+    "source_sha256": "c98616f706f08ae43b2f0ecd854ff1b34078f81dd40764b92cc6aa88ab5d80ae"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "diagrams/03-class.svg",
+    "source_sha256": "9e0403eb56db0e9bc09662502098ad6d80700da2486ca1e643df6102e8025e0f"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "diagrams/04-create.mmd",
+    "source_sha256": "de9364b5a6f00167f68ec87774e5f04c6b70d7d4202ea00b7dd5f03f04ef59e9"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "diagrams/04-create.svg",
+    "source_sha256": "3708a36af2155c0b318b7920248561c0fe2c1191b35593645c14ee02f3c5958d"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "diagrams/05-assign.mmd",
+    "source_sha256": "daec40e9fe417d0c0ff78d2478c1c0285902d0a00dec036aac266096ae6797f0"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "diagrams/05-assign.svg",
+    "source_sha256": "40ac3237de0f38e53bd7715712bbd0871909145d7a7728803e14c88304b327d3"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "diagrams/06-repair.mmd",
+    "source_sha256": "7de73863a97f2540d3447cf8b1a6e6d6232ce99b8f4529693f07c3f70b99c83a"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "diagrams/06-repair.svg",
+    "source_sha256": "61ba172c98acab9e645c92c4fd0e3f39e850949e3bdd2577d363321dd48d219b"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "diagrams/07-confirm.mmd",
+    "source_sha256": "3805792723402dc4309c6f9d9e69fc026fa4d6faa263a4ba1a968e815b7a2952"
+  },
+  {
+    "group": "01_后端开发组",
+    "file": "diagrams/07-confirm.svg",
+    "source_sha256": "cfda7d45fa82f4f61b57df6cd784f04c0ae71f5d0dea9f2a5e4044ab40de8de4"
+  },
+  {
+    "group": "02_前端开发组",
+    "file": "system-design.md",
+    "source_sha256": "b76d6a327b83656ff433b85d77d96a66c11a997e94af31a0575aa368aa9edf8b"
+  },
+  {
+    "group": "02_前端开发组",
+    "file": "api-contract.md",
+    "source_sha256": "65d0fc7656b418ce5f03bd086a384a718d95e93b9f3a98beca7772206ac63816"
+  },
+  {
+    "group": "02_前端开发组",
+    "file": "implementation-notes.md",
+    "source_sha256": "a39adcea204c4d9d2157a1e9cb700af24b7e0a4af2f0e2c2cdcb2d181beb592e"
+  },
+  {
+    "group": "02_前端开发组",
+    "file": "acceptance.md",
+    "source_sha256": "ce57ebe1649bc066460b87941d4b62193a5eea181c41ea854efc65fd261406ce"
+  },
+  {
+    "group": "02_前端开发组",
+    "file": "review-and-tasks.md",
+    "source_sha256": "2e77d0d63f7873301e98a3ac6ad8ea911e4049dd5312cdc6a2d2b6de1ee41893"
+  },
+  {
+    "group": "02_前端开发组",
+    "file": "diagrams/02-state.mmd",
+    "source_sha256": "2e8f82844e417d6294640b3eab343b6da8938e6699142a80b603a5e1a9bc7a81"
+  },
+  {
+    "group": "02_前端开发组",
+    "file": "diagrams/02-state.svg",
+    "source_sha256": "3f9392af5bbded2ddf8ec17ca57b52d43ef3e191ea198649e0d10278e1880982"
+  },
+  {
+    "group": "02_前端开发组",
+    "file": "diagrams/04-create.mmd",
+    "source_sha256": "de9364b5a6f00167f68ec87774e5f04c6b70d7d4202ea00b7dd5f03f04ef59e9"
+  },
+  {
+    "group": "02_前端开发组",
+    "file": "diagrams/04-create.svg",
+    "source_sha256": "3708a36af2155c0b318b7920248561c0fe2c1191b35593645c14ee02f3c5958d"
+  },
+  {
+    "group": "02_前端开发组",
+    "file": "diagrams/05-assign.mmd",
+    "source_sha256": "daec40e9fe417d0c0ff78d2478c1c0285902d0a00dec036aac266096ae6797f0"
+  },
+  {
+    "group": "02_前端开发组",
+    "file": "diagrams/05-assign.svg",
+    "source_sha256": "40ac3237de0f38e53bd7715712bbd0871909145d7a7728803e14c88304b327d3"
+  },
+  {
+    "group": "02_前端开发组",
+    "file": "diagrams/06-repair.mmd",
+    "source_sha256": "7de73863a97f2540d3447cf8b1a6e6d6232ce99b8f4529693f07c3f70b99c83a"
+  },
+  {
+    "group": "02_前端开发组",
+    "file": "diagrams/06-repair.svg",
+    "source_sha256": "61ba172c98acab9e645c92c4fd0e3f39e850949e3bdd2577d363321dd48d219b"
+  },
+  {
+    "group": "02_前端开发组",
+    "file": "diagrams/07-confirm.mmd",
+    "source_sha256": "3805792723402dc4309c6f9d9e69fc026fa4d6faa263a4ba1a968e815b7a2952"
+  },
+  {
+    "group": "02_前端开发组",
+    "file": "diagrams/07-confirm.svg",
+    "source_sha256": "cfda7d45fa82f4f61b57df6cd784f04c0ae71f5d0dea9f2a5e4044ab40de8de4"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "system-design.md",
+    "source_sha256": "b76d6a327b83656ff433b85d77d96a66c11a997e94af31a0575aa368aa9edf8b"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "api-contract.md",
+    "source_sha256": "65d0fc7656b418ce5f03bd086a384a718d95e93b9f3a98beca7772206ac63816"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "implementation-notes.md",
+    "source_sha256": "a39adcea204c4d9d2157a1e9cb700af24b7e0a4af2f0e2c2cdcb2d181beb592e"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "acceptance.md",
+    "source_sha256": "ce57ebe1649bc066460b87941d4b62193a5eea181c41ea854efc65fd261406ce"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "schema.sql",
+    "source_sha256": "8597049fdbc50496948be7a810d04c6647090a53e0338c774ebfb0d385b04a39"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "seed.sql",
+    "source_sha256": "3aa2ed2a4ab3f125720d72019589d8a198cf6625a0463cf66f6ca3f88bc3a8bd"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "verify_delivery.py",
+    "source_sha256": "9dafa4b957a0706ad8cc6440b61325db4b0e936d6942db2effc602d3d28eed27"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "verification-report.md",
+    "source_sha256": "7385862ab0771b932356b4558d9f600fa357e1eb0bc12036ca25c3a84aaa9434"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "verification-results.json",
+    "source_sha256": "a62d6ca5a3ee8b60c941c98f6169c20645931f1d5716e215aaa2842f9affc116"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "review-and-tasks.md",
+    "source_sha256": "2e77d0d63f7873301e98a3ac6ad8ea911e4049dd5312cdc6a2d2b6de1ee41893"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "diagrams/02-state.mmd",
+    "source_sha256": "2e8f82844e417d6294640b3eab343b6da8938e6699142a80b603a5e1a9bc7a81"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "diagrams/02-state.svg",
+    "source_sha256": "3f9392af5bbded2ddf8ec17ca57b52d43ef3e191ea198649e0d10278e1880982"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "diagrams/04-create.mmd",
+    "source_sha256": "de9364b5a6f00167f68ec87774e5f04c6b70d7d4202ea00b7dd5f03f04ef59e9"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "diagrams/04-create.svg",
+    "source_sha256": "3708a36af2155c0b318b7920248561c0fe2c1191b35593645c14ee02f3c5958d"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "diagrams/05-assign.mmd",
+    "source_sha256": "daec40e9fe417d0c0ff78d2478c1c0285902d0a00dec036aac266096ae6797f0"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "diagrams/05-assign.svg",
+    "source_sha256": "40ac3237de0f38e53bd7715712bbd0871909145d7a7728803e14c88304b327d3"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "diagrams/06-repair.mmd",
+    "source_sha256": "7de73863a97f2540d3447cf8b1a6e6d6232ce99b8f4529693f07c3f70b99c83a"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "diagrams/06-repair.svg",
+    "source_sha256": "61ba172c98acab9e645c92c4fd0e3f39e850949e3bdd2577d363321dd48d219b"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "diagrams/07-confirm.mmd",
+    "source_sha256": "3805792723402dc4309c6f9d9e69fc026fa4d6faa263a4ba1a968e815b7a2952"
+  },
+  {
+    "group": "03_测试与质量组",
+    "file": "diagrams/07-confirm.svg",
+    "source_sha256": "cfda7d45fa82f4f61b57df6cd784f04c0ae71f5d0dea9f2a5e4044ab40de8de4"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "system-design.md",
+    "source_sha256": "b76d6a327b83656ff433b85d77d96a66c11a997e94af31a0575aa368aa9edf8b"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "api-contract.md",
+    "source_sha256": "65d0fc7656b418ce5f03bd086a384a718d95e93b9f3a98beca7772206ac63816"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "implementation-notes.md",
+    "source_sha256": "a39adcea204c4d9d2157a1e9cb700af24b7e0a4af2f0e2c2cdcb2d181beb592e"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "acceptance.md",
+    "source_sha256": "ce57ebe1649bc066460b87941d4b62193a5eea181c41ea854efc65fd261406ce"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "review-and-tasks.md",
+    "source_sha256": "2e77d0d63f7873301e98a3ac6ad8ea911e4049dd5312cdc6a2d2b6de1ee41893"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "verification-report.md",
+    "source_sha256": "7385862ab0771b932356b4558d9f600fa357e1eb0bc12036ca25c3a84aaa9434"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "verification-results.json",
+    "source_sha256": "a62d6ca5a3ee8b60c941c98f6169c20645931f1d5716e215aaa2842f9affc116"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "diagrams/01-er.mmd",
+    "source_sha256": "0066eff0d1758c45b01a121a9c4311f5eae624fe9956237d1903d5c3af5c4ddd"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "diagrams/01-er.svg",
+    "source_sha256": "38447f87a960bbdaff375725e19d4ad96974b3dd94febbfc1de53d6c29240633"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "diagrams/02-state.mmd",
+    "source_sha256": "2e8f82844e417d6294640b3eab343b6da8938e6699142a80b603a5e1a9bc7a81"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "diagrams/02-state.svg",
+    "source_sha256": "3f9392af5bbded2ddf8ec17ca57b52d43ef3e191ea198649e0d10278e1880982"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "diagrams/03-class.mmd",
+    "source_sha256": "c98616f706f08ae43b2f0ecd854ff1b34078f81dd40764b92cc6aa88ab5d80ae"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "diagrams/03-class.svg",
+    "source_sha256": "9e0403eb56db0e9bc09662502098ad6d80700da2486ca1e643df6102e8025e0f"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "diagrams/04-create.mmd",
+    "source_sha256": "de9364b5a6f00167f68ec87774e5f04c6b70d7d4202ea00b7dd5f03f04ef59e9"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "diagrams/04-create.svg",
+    "source_sha256": "3708a36af2155c0b318b7920248561c0fe2c1191b35593645c14ee02f3c5958d"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "diagrams/05-assign.mmd",
+    "source_sha256": "daec40e9fe417d0c0ff78d2478c1c0285902d0a00dec036aac266096ae6797f0"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "diagrams/05-assign.svg",
+    "source_sha256": "40ac3237de0f38e53bd7715712bbd0871909145d7a7728803e14c88304b327d3"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "diagrams/06-repair.mmd",
+    "source_sha256": "7de73863a97f2540d3447cf8b1a6e6d6232ce99b8f4529693f07c3f70b99c83a"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "diagrams/06-repair.svg",
+    "source_sha256": "61ba172c98acab9e645c92c4fd0e3f39e850949e3bdd2577d363321dd48d219b"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "diagrams/07-confirm.mmd",
+    "source_sha256": "3805792723402dc4309c6f9d9e69fc026fa4d6faa263a4ba1a968e815b7a2952"
+  },
+  {
+    "group": "04_需求与报告组",
+    "file": "diagrams/07-confirm.svg",
+    "source_sha256": "cfda7d45fa82f4f61b57df6cd784f04c0ae71f5d0dea9f2a5e4044ab40de8de4"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "acceptance.md",
+    "source_sha256": "ce57ebe1649bc066460b87941d4b62193a5eea181c41ea854efc65fd261406ce"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "api-contract.md",
+    "source_sha256": "65d0fc7656b418ce5f03bd086a384a718d95e93b9f3a98beca7772206ac63816"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "implementation-notes.md",
+    "source_sha256": "a39adcea204c4d9d2157a1e9cb700af24b7e0a4af2f0e2c2cdcb2d181beb592e"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "README.md",
+    "source_sha256": "b4414050ceb1d9532453db396e02c37eff25fe849c561f6d729bfae8bbec047f"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "review-and-tasks.md",
+    "source_sha256": "2e77d0d63f7873301e98a3ac6ad8ea911e4049dd5312cdc6a2d2b6de1ee41893"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "schema.sql",
+    "source_sha256": "8597049fdbc50496948be7a810d04c6647090a53e0338c774ebfb0d385b04a39"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "seed.sql",
+    "source_sha256": "3aa2ed2a4ab3f125720d72019589d8a198cf6625a0463cf66f6ca3f88bc3a8bd"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "system-design.md",
+    "source_sha256": "b76d6a327b83656ff433b85d77d96a66c11a997e94af31a0575aa368aa9edf8b"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "verification-report.md",
+    "source_sha256": "7385862ab0771b932356b4558d9f600fa357e1eb0bc12036ca25c3a84aaa9434"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "verification-results.json",
+    "source_sha256": "a62d6ca5a3ee8b60c941c98f6169c20645931f1d5716e215aaa2842f9affc116"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "verify_delivery.py",
+    "source_sha256": "9dafa4b957a0706ad8cc6440b61325db4b0e936d6942db2effc602d3d28eed27"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "diagrams/01-er.mmd",
+    "source_sha256": "0066eff0d1758c45b01a121a9c4311f5eae624fe9956237d1903d5c3af5c4ddd"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "diagrams/01-er.svg",
+    "source_sha256": "38447f87a960bbdaff375725e19d4ad96974b3dd94febbfc1de53d6c29240633"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "diagrams/02-state.mmd",
+    "source_sha256": "2e8f82844e417d6294640b3eab343b6da8938e6699142a80b603a5e1a9bc7a81"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "diagrams/02-state.svg",
+    "source_sha256": "3f9392af5bbded2ddf8ec17ca57b52d43ef3e191ea198649e0d10278e1880982"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "diagrams/03-class.mmd",
+    "source_sha256": "c98616f706f08ae43b2f0ecd854ff1b34078f81dd40764b92cc6aa88ab5d80ae"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "diagrams/03-class.svg",
+    "source_sha256": "9e0403eb56db0e9bc09662502098ad6d80700da2486ca1e643df6102e8025e0f"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "diagrams/04-create.mmd",
+    "source_sha256": "de9364b5a6f00167f68ec87774e5f04c6b70d7d4202ea00b7dd5f03f04ef59e9"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "diagrams/04-create.svg",
+    "source_sha256": "3708a36af2155c0b318b7920248561c0fe2c1191b35593645c14ee02f3c5958d"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "diagrams/05-assign.mmd",
+    "source_sha256": "daec40e9fe417d0c0ff78d2478c1c0285902d0a00dec036aac266096ae6797f0"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "diagrams/05-assign.svg",
+    "source_sha256": "40ac3237de0f38e53bd7715712bbd0871909145d7a7728803e14c88304b327d3"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "diagrams/06-repair.mmd",
+    "source_sha256": "7de73863a97f2540d3447cf8b1a6e6d6232ce99b8f4529693f07c3f70b99c83a"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "diagrams/06-repair.svg",
+    "source_sha256": "61ba172c98acab9e645c92c4fd0e3f39e850949e3bdd2577d363321dd48d219b"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "diagrams/07-confirm.mmd",
+    "source_sha256": "3805792723402dc4309c6f9d9e69fc026fa4d6faa263a4ba1a968e815b7a2952"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "diagrams/07-confirm.svg",
+    "source_sha256": "cfda7d45fa82f4f61b57df6cd784f04c0ae71f5d0dea9f2a5e4044ab40de8de4"
+  },
+  {
+    "group": "05_A2总交付留存",
+    "file": "diagrams/README.md",
+    "source_sha256": "eb06faadacb97d3a334e632a3ecc6c63c7f71be30afa01e5fbb4f6a2076ee1ff"
+  }
+]

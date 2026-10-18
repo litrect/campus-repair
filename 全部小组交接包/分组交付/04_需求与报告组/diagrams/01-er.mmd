@@ -1,0 +1,63 @@
+erDiagram
+    USER ||--o{ REPAIR_ORDER : "学生提交 student_id"
+    USER |o--o{ REPAIR_ORDER : "维修工承接 worker_id"
+    REPAIR_ORDER ||--o{ ORDER_LOG : "产生操作流水"
+    USER |o--o{ ORDER_LOG : "操作人"
+    USER |o--o{ ORDER_LOG : "原维修工"
+    USER |o--o{ ORDER_LOG : "新维修工"
+    REPAIR_ORDER ||--o| EVALUATION : "最多一条评价"
+
+    USER {
+      bigint id PK
+      varchar username UK
+      varchar password
+      varchar real_name
+      varchar role
+      varchar phone
+      varchar skill
+      tinyint is_active
+      datetime create_time
+    }
+    REPAIR_ORDER {
+      bigint id PK
+      varchar order_no UK
+      bigint student_id FK
+      bigint worker_id FK
+      varchar request_token
+      char request_hash
+      varchar category
+      varchar location
+      varchar description
+      varchar image_url
+      varchar urgency
+      varchar status
+      varchar repair_record
+      datetime create_time
+      datetime assign_time
+      datetime accept_time
+      datetime finish_time
+      datetime deadline
+      tinyint is_overtime
+      datetime close_time
+      int version
+    }
+    ORDER_LOG {
+      bigint id PK
+      bigint order_id FK
+      varchar event_type
+      varchar from_status
+      varchar to_status
+      int order_version
+      bigint operator_id FK
+      bigint from_worker_id FK
+      bigint to_worker_id FK
+      varchar remark
+      datetime create_time
+    }
+    EVALUATION {
+      bigint id PK
+      bigint order_id FK,UK
+      tinyint score
+      varchar content
+      datetime create_time
+    }

@@ -1,0 +1,24 @@
+sequenceDiagram
+    actor S as 学生
+    participant API as Flask 路由
+    participant SV as OrderService
+    participant DB as MySQL
+    alt 学生确认修好
+      S->>API: POST /api/orders/{id}/confirm + version
+      API->>SV: 校验归属、DONE、客户端 version
+      SV->>DB: 条件更新 CLOSED 和 CONFIRM 日志，同事务提交
+      SV-->>API: CLOSED 和新 version
+      API-->>S: 确认成功
+      S->>API: POST /api/orders/{id}/evaluate + score/content
+      API->>SV: 校验归属、CLOSED、评分范围
+      SV->>DB: 事务内插入评价，order_id 唯一键防重复
+      SV-->>API: 保存成功或重复评价
+      API-->>S: 成功，或 409 已评价
+    else 学生认为未修好
+      S->>API: POST /api/orders/{id}/reject + reason + version
+      API->>SV: 校验归属、DONE、版本及非空原因
+      SV->>DB: 清空 finish_time，更新 PROCESSING、超时标记与 REJECT 日志
+      Note over SV,DB: 同事务提交，原维修工继续处理
+      SV-->>API: PROCESSING 和新 version
+      API-->>S: 驳回成功
+    end

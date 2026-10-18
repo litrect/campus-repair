@@ -1,0 +1,44 @@
+classDiagram
+    class User {
+      +id: long
+      +username: string
+      +passwordHash: string
+      +role: UserRole
+      +isActive: bool
+    }
+    class RepairOrder {
+      +id: long
+      +orderNo: string
+      +studentId: long
+      +workerId: long?
+      +status: OrderStatus
+      +version: int
+      +requestHash: string
+      +repairRecord: string?
+    }
+    class OrderLog {
+      +id: long
+      +orderId: long
+      +eventType: EventType
+      +fromStatus: OrderStatus?
+      +toStatus: OrderStatus
+      +orderVersion: int
+    }
+    class Evaluation {
+      +id: long
+      +orderId: long
+      +score: int
+    }
+    class OrderService {
+      +createOrder()
+      +assignOrder()
+      +changeStatus()
+      +evaluateOrder()
+    }
+    User "1" --> "0..*" RepairOrder : studentId
+    User "0..1" --> "0..*" RepairOrder : workerId
+    RepairOrder "1" --> "0..*" OrderLog
+    RepairOrder "1" --> "0..1" Evaluation
+    OrderService ..> RepairOrder
+    OrderService ..> OrderLog
+    OrderService ..> Evaluation

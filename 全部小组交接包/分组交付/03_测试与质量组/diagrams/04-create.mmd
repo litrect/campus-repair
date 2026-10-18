@@ -1,0 +1,24 @@
+sequenceDiagram
+    actor S as 学生
+    participant UI as 前端
+    participant API as Flask 路由
+    participant SV as OrderService
+    participant DB as MySQL
+    S->>UI: 填写报修并提交
+    UI->>API: POST /api/orders + Idempotency-Key
+    API->>SV: 启用学生鉴权，校验字段、图片归属并计算摘要
+    SV->>DB: BEGIN，插入工单 CREATED
+    alt 首次创建
+      SV->>DB: 插入版本 0 CREATE 日志，COMMIT
+      SV-->>API: 工单 ID、编号、状态和版本
+      API-->>UI: HTTP 201，code=0
+      UI-->>S: 跳转我的报修
+    else 学生与幂等键重复
+      SV->>DB: ROLLBACK，新事务读取既有工单和摘要
+      SV-->>API: 摘要相同返回既有工单，否则冲突
+      API-->>UI: HTTP 200 或 409
+    else 日志或数据库操作失败
+      SV->>DB: ROLLBACK，工单与日志均不保留
+      SV-->>API: 失败结果
+      API-->>UI: 明确错误提示
+    end

@@ -1,0 +1,12 @@
+stateDiagram-v2
+    [*] --> CREATED: 学生提交
+    CREATED --> ASSIGNED: 管理员派单
+    CREATED --> CANCELLED: 学生或管理员取消
+    ASSIGNED --> ASSIGNED: 管理员改派
+    ASSIGNED --> PROCESSING: 当前维修工接单
+    ASSIGNED --> CANCELLED: 管理员取消
+    PROCESSING --> DONE: 当前维修工提交完成
+    DONE --> CLOSED: 报修学生确认
+    DONE --> PROCESSING: 报修学生驳回
+    CLOSED --> [*]
+    CANCELLED --> [*]

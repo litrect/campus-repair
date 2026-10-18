@@ -1,0 +1,76 @@
+{
+  "mysql_version": "8.0.46",
+  "database": "a2_verify_20261015_112412",
+  "passed": 17,
+  "cases": [
+    {
+      "case": "DB01 four tables and four seeded users",
+      "result": "PASS"
+    },
+    {
+      "case": "DB02 seeded password hashes validate",
+      "result": "PASS"
+    },
+    {
+      "case": "DB03 duplicate username rejected",
+      "result": "PASS"
+    },
+    {
+      "case": "DB04 role is case sensitive and restricted",
+      "result": "PASS"
+    },
+    {
+      "case": "DB05 duplicate request token rejected",
+      "result": "PASS"
+    },
+    {
+      "case": "DB06 foreign key rejects missing user",
+      "result": "PASS"
+    },
+    {
+      "case": "DB07 invalid state and missing worker rejected",
+      "result": "PASS"
+    },
+    {
+      "case": "DB08 idempotency token case is preserved",
+      "result": "PASS"
+    },
+    {
+      "case": "DB09 normal flow including rejection has consistent versions",
+      "result": "PASS"
+    },
+    {
+      "case": "DB10 duplicate evaluation rejected",
+      "result": "PASS"
+    },
+    {
+      "case": "DB11 rating out of range rejected",
+      "result": "PASS"
+    },
+    {
+      "case": "DB12 invalid log transition rejected",
+      "result": "PASS"
+    },
+    {
+      "case": "DB13 log failure rolls back order mutation",
+      "result": "PASS"
+    },
+    {
+      "case": "DB14 concurrent assignment only one succeeds",
+      "result": "PASS"
+    },
+    {
+      "case": "DB15 stale version cannot overwrite assignment",
+      "result": "PASS"
+    },
+    {
+      "case": "DB16 reassignment records old and new worker",
+      "result": "PASS"
+    },
+    {
+      "case": "DB17 finish marks overdue even before scanner",
+      "result": "PASS"
+    }
+  ],
+  "scope": "DDL, seed hashes and SQL transaction patterns; not Flask/API end-to-end tests"
+}

@@ -1,0 +1,21 @@
+sequenceDiagram
+    actor W as 维修工
+    participant API as Flask 路由
+    participant SV as OrderService
+    participant DB as MySQL
+    W->>API: POST /api/orders/{id}/accept
+    API->>SV: 校验当前指派人、ASSIGNED、version
+    alt 归属、状态和版本通过
+      SV->>DB: 条件更新 PROCESSING 和 ACCEPT 日志，同事务提交
+      SV-->>API: 新状态和 version
+      API-->>W: 接单成功
+      W->>API: POST /api/orders/{id}/finish + 维修记录 + version
+      API->>SV: 校验归属、PROCESSING、版本、非空维修记录
+      SV->>DB: 条件更新 DONE、完成时间、超时标记和 FINISH 日志
+      Note over SV,DB: 全部成功才提交，否则全部回滚
+      SV-->>API: 处理结果
+      API-->>W: 新状态和版本，或错误
+    else 已改派或版本过期
+      SV-->>API: 无访问权限或并发冲突
+      API-->>W: 404 或 409
+    end

@@ -1,0 +1,23 @@
+# Machine-specific runtimes, credentials, database and generated dependencies
+**/.venv/
+**/node_modules/
+**/__pycache__/
+**/.pytest_cache/
+**/dist/
+**/instance/
+**/tools/
+**/.env
+**/.env.*
+!**/.env.example
+*.pyc
+*.log
+*.zip
+*.7z
+*.rar
+*.pem
+*.key
+.cpolar/
+.codex/
+.agents/
+Thumbs.db
+Desktop.ini

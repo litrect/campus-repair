@@ -1,0 +1,38 @@
+:root {
+  color: #1f2937;
+  background: #f3f7fc;
+  font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+.login-card { max-width: 460px; }
+form label { display: block; margin: 22px 0 8px; font-weight: 600; }
+.login-submit { width: 100%; margin-top: 28px; }
+.form-error { color: #c33535; font-size: 14px; }
+.topbar { min-height: 76px; background: white; border-bottom: 1px solid #e4eaf2; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 32px; }
+.brand { color: #2468d8; text-decoration: none; font-size: 21px; font-weight: 700; }
+.account { display: flex; align-items: center; gap: 20px; font-size: 14px; }
+.workspace-body { display: flex; min-height: calc(100vh - 76px); }
+.sidebar { width: 210px; flex-shrink: 0; padding: 24px 12px; background: white; }
+.sidebar a { display: block; padding: 13px 18px; margin-bottom: 6px; border-radius: 8px; text-decoration: none; color: #526072; }
+.sidebar a.router-link-active { color: #2468d8; background: #edf4ff; font-weight: 600; }
+.page-content { flex: 1; min-width: 0; padding: 32px; }
+.page-content h1 { font-size: 27px; }
+.content-card { background: white; border-radius: 12px; padding: 24px; }
+@media (max-width: 680px) {
+  .topbar { padding: 16px; flex-wrap: wrap; }
+  .account { width: 100%; justify-content: space-between; }
+  .workspace-body { flex-direction: column; }
+  .sidebar { width: 100%; display: flex; overflow-x: auto; padding: 10px; }
+  .sidebar a { white-space: nowrap; margin: 0 4px 0 0; }
+  .page-content { padding: 20px 16px; }
+}
+button, input, textarea, select { font: inherit; }
+
+.app-shell { display: grid; min-height: 100vh; place-items: center; padding: 24px; }
+.welcome-card { width: min(100%, 640px); padding: 40px; border-radius: 20px; background: #fff; box-shadow: 0 12px 36px rgb(31 71 130 / 12%); }
+.eyebrow { margin: 0 0 8px; color: #2468d8; font-size: 14px; font-weight: 700; letter-spacing: .1em; }
+h1 { margin: 0 0 16px; font-size: clamp(28px, 5vw, 40px); }
+.welcome-card p:last-child { margin: 0; color: #526072; line-height: 1.75; }
